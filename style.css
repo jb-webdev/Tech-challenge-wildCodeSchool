@@ -1,0 +1,162 @@
+body {
+
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* FONTS*/
+h1, h2, h3, h4, li{
+    font-family: 'Amatic SC', cursive;
+}
+
+
+
+
+/* SECTION HEADER */ 
+header {
+    text-align: center;
+    background-color: #f65454;
+    color: #39424e;
+   
+}
+h1 {
+ font-size: 100px;
+}
+
+#ulNav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+#ulNav li {
+    font-size: 2em;
+}
+
+
+a {
+    text-decoration: none;
+    color: #39424e;
+    font-weight: bold;
+    /* margin-right: 50px; */
+    padding: 5px;
+
+    width: 100%;
+    background: none;
+    height: 50px;
+    border: 1px solid #f12929;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 4px;
+    transition: .6s;
+
+}
+
+a:hover {
+    background: #f12929;
+    color: #fcf7f7;
+    border: none;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 3px rgba(165, 160, 160, 0.6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+
+/* SECTION PERFORMANCES*/
+#performances {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 80%;
+    max-width: 80%;
+}
+#performances h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+/* SECTION PRICES */
+#prices h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+#ulArticle{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#ulArticle h3{
+    text-align: center;
+}
+
+.pArticle{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* SECTION ASIDE*/
+
+#prices {
+    max-width: 800px;
+    margin-right: 25%;
+    margin-left: 25%;
+} 
+
+#inputBox {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+/* SECTION FOOTER */
+
+footer{
+    background-color: #f65454;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+}
+#h4Footer{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#pFooter {
+    size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+#ulFooter{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 50%;
+    justify-content: space-around;
+    list-style-type: none;
+}
+#ulFooter li {
+    font-size: 2em;
+}
